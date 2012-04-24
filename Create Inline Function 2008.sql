@@ -1,10 +1,13 @@
-﻿CREATE FUNCTION $SchemaQualifiedObjectName$
-(
-	@param1 int, 
-	@param2 char(5)
-)
+﻿--**********************************************************
+--*
+--*		$SchemaQualifiedObjectName$	- [Description]
+--*
+CREATE FUNCTION $SchemaQualifiedObjectName$	
+	( @param1 		Int, 
+	, @param2 		Char(5)		= NULL
+	)
 RETURNS TABLE AS RETURN 
 (
-	SELECT  @param1 AS c1, 
-			@param2 AS c2
+	SELECT	  C1	= @param1
+			, C2	= @param2
 )

@@ -1,3 +1,7 @@
-﻿ALTER TABLE [$SchemaName$].[$ParentObjectName$]
-    ADD CONSTRAINT [$ChildObjectName$]
-    UNIQUE (column_1)
+﻿--**********************************************************
+--*
+--*		$SchemaQualifiedObjectName$	- [Description]
+--*
+
+ALTER TABLE $ParentObjectName$
+    ADD CONSTRAINT $ChildObjectName$ UNIQUE (column_1)

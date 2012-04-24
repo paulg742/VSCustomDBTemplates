@@ -1,5 +1,8 @@
-﻿CREATE INDEX [$ChildObjectName$]
-    ON [$SchemaName$].[$ParentObjectName$]
-	(column_1)
+﻿--**********************************************************
+--*
+--*		$SchemaQualifiedObjectName$	- [Description]
+--*
+
+CREATE INDEX $ChildObjectName$ ON $ParentObjectName$ (column_1)
 
 

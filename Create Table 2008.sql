@@ -1,5 +1,9 @@
-﻿CREATE TABLE $SchemaQualifiedObjectName$
-(
-	column_1 int NOT NULL, 
-	column_2 int NULL
-)
+﻿--**********************************************************
+--*
+--*		$SchemaQualifiedObjectName$	- [Description]
+--*
+
+CREATE TABLE $SchemaQualifiedObjectName$
+	( Id			Int			NOT NULL	IDENTITY(1,1) PRIMARY KEY 
+	, column_2 		Int			NULL
+	)
