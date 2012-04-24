@@ -1,0 +1,1 @@
+﻿EXEC sp_addlinkedsrvlogin '$rawname$', @locallogin = N'$rawname$Login'

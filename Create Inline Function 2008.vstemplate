@@ -1,0 +1,24 @@
+<VSTemplate Type="Item" Version="3.0.0"
+    xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Inline Function</Name>
+    <Description>SQL script for Inline Function</Description>
+    <Icon></Icon>
+    <ProjectType>Database Projects</ProjectType>
+    <SortOrder>10</SortOrder>
+    <DefaultName>$(Function)InlineFunction</DefaultName>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$changedFilename$">Create Inline Function 2008.sql</ProjectItem>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>Microsoft.VisualStudio.Data.Schema.Package.Sql, Version=10.0.0.0, Culture=Neutral, PublicKeyToken=b03f5f7f11d50a3a, Custom=null</Assembly>
+    <FullClassName>Microsoft.VisualStudio.Data.Schema.Package.Sql.Project.TemplateWizard</FullClassName>
+  </WizardExtension>
+  <WizardData>
+    <SqlItemType>Function</SqlItemType>
+    <DSP>Microsoft.Data.Schema.Sql.Sql100DatabaseSchemaProvider</DSP>
+    <DSPAssemblyName>Microsoft.Data.Schema.Sql, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</DSPAssemblyName>
+  </WizardData>
+</VSTemplate>

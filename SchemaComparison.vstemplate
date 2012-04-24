@@ -1,0 +1,18 @@
+<VSTemplate Type="Item" Version="3.0.0"
+    xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name Package="{068E2583-0872-403B-AF4C-6C2A8F2D8C3E}" ID="760"/>
+    <Description Package="{068E2583-0872-403B-AF4C-6C2A8F2D8C3E}" ID="761"/>
+    <Icon></Icon>
+    <ProjectType>Database Projects</ProjectType>
+    <SortOrder>0</SortOrder>
+    <DefaultName>SchemaComparison.scmp</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem >SchemaComparison.scmp</ProjectItem>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>Microsoft.VisualStudio.Data.Schema.Package, Version=10.0.0.0, Culture=Neutral, PublicKeyToken=b03f5f7f11d50a3a, Custom=null</Assembly>
+    <FullClassName>Microsoft.VisualStudio.Data.Schema.Package.SchemaCompare.Internal.SchemaCompareWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>

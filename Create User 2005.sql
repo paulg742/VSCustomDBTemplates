@@ -1,0 +1,3 @@
+﻿CREATE USER [$rawname$]
+    WITHOUT LOGIN
+    WITH DEFAULT_SCHEMA = dbo;
